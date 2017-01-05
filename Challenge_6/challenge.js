@@ -10,7 +10,7 @@ Exercise #2
 Using the loop provided for you below, use an array's push method to insert the nummbers  0 to 10 into positions 0 through 10 of the numbers array you just initialized above.'If you're not sure how to use the array push method go back and re read this module on data strucutres.'
 */
 
-for(var i = 1; i < 10; i++){
+for(var i = 0; i < 10; i++){
     numbers.push(i);
 } 
 
@@ -20,7 +20,7 @@ Exercise #3
 Test that you used the array push method correctly by printing the sum of the values at position 3 and 6 of the array (use the console.log() function to print to the console). 
 The outputted value should be 9.
 */
-console.log(numbers.length);
+console.log(numbers[3] + numbers[6]);
 
 
 
