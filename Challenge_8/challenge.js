@@ -34,3 +34,16 @@ for (var i = 1; i <= 100; i++){
 //Write a program that creates a string that represents an 8x8 grid, using newline characters to separate lines.
 //At each position of the grid there is either a space or a '#' character. 
 //The characters should form a chessboard.
+var grid = 8;
+var chess = '';
+for(var i = 0; i < 8; i++){
+    for(var j = 1; j < 8; j++){
+        if ((i + j) % 2 == 0)
+        chess += '';
+        else
+        chess += '#';
+        
+    }
+    chess += '\n';
+}
+console.log(chess);

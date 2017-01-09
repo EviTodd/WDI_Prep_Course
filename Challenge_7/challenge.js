@@ -13,8 +13,7 @@ function ask(){
     }else {
         console.log('Not in your wildest dreams');
     }
-        console.log(choice);
-    
+        console.log(choice); 
 
     
 }
