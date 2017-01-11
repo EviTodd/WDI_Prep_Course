@@ -17,18 +17,18 @@ for (var triangle = '#'; triangle.length < 8; triangle +='#'){
 //For every number that is a multiple of 5 print the word Fizz
 //For every number that is a multiple of 3 print the word Buzz
 //If a number is a multiple of 5 and 3 (like 15) print the word FizzBuzz
-for (var i = 1; i <= 100; i++){
-    if(i % 3 == 0){
-        console.log('Fizz');
-    }else if(i % 5 == 0){
-        console.log('Buzz');
-    }else if (i % 5 == 0 && i % 3 ==0){
+for(var i = 1; i<= 100; i++){
+    if(i% 5 == 0 && i % 3 == 0){
         console.log('FizzBuzz');
+    }else if(i % 3 == 0){
+        console.log('Fizz');
+    }else if (i % 5 == 0){
+        console.log('Buzz');
     }else{
         console.log(i);
     }
 }
-// I used the modulo operator to get multiples of 3 & 5 but am unable to get the multiple of 15 to print FizzBuzz.
+//I re-organized the order of the if, else if statements
 
 //Exercise 4
 //Write a program that creates a string that represents an 8x8 grid, using newline characters to separate lines.
